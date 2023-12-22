@@ -129,16 +129,19 @@ h1 {
 }
 
 .show-add-modal-dialogue {
+  border-radius: 5px;
   padding: 10px;
   height: 200px;
-  background-color: white;
+  background-color: #ace443;
   position: absolute;
   transform: translateY(1000px);
-  /* transition: transform 500ms ease-in-out; */
+  border: 1px solid white;
+  /* box-shadow: inset 0px 0px 20px white; */
 }
 
 form {
   font-size: 1.5rem;
+  font-family: sans-serif;
   /* border: 1px solid red; */
   text-align: center;
   height: auto;
@@ -163,7 +166,7 @@ form {
   border: none;
   padding: 0px 5px;
   height: 25px;
-  font-family: 'Arima';
+  font-family: inherit;
   font-weight: bold;
   color: white;
   background-color: black;
