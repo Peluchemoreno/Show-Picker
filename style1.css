@@ -77,11 +77,11 @@ h1 {
   /* background-color: white; */
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-weight: bold;
   margin: 0;
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   width: 100dvw;
 }
 
