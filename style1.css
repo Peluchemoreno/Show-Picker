@@ -60,9 +60,10 @@ h1 {
   margin: 5px 10px;
 }
 
-.random-show {
-  color: white;
+#random-show {
+  color: black;
   border-radius: 3px;
+  animation: 20s infinite alternate randomColor;
 }
 
 .show-all a {
@@ -295,4 +296,40 @@ font-size: 1rem;
   gap: 30px;
   height: 80%;
   padding: 10px;
+}
+
+@keyframes randomColor {
+  0% {
+    background-color: rgb(243, 62, 62);
+  }
+  10%{
+    background-color: aqua;
+  }
+  20%{
+    background-color: #7b43e4;
+  }
+  30%{
+    background-color: #ace443;
+  }
+  40%{
+    background-color: rgb(241, 99, 48);
+  }
+  50%{
+    background-color: yellowgreen;
+  }
+  60%{
+    background-color: #e4b143;
+  }
+  70%{
+    background-color: #f073e5;
+  }
+  80%{
+    background-color: #ace443;
+  }
+  90%{
+    background-color: rgb(98, 240, 93);
+  }
+  100%{
+    background-color: #ace443;
+  }
 }
