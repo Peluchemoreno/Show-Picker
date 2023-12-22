@@ -113,7 +113,7 @@ h1 {
   display: none;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, .8);
   /* border: 1px solid red; */
   width: 100vw;
   height: 100vh;
