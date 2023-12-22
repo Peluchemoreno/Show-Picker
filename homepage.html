@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style1.css" />
+    <script src="script.js" defer></script>
+    <title>Show Picker</title>
+  </head>
+  <body>
+    <div class="header-container">
+      <img
+        class="homepage-logo"
+        src="resources/show-picker-logo-no-words.png"
+        alt=""
+      />
+      <a href="index.html">
+        <img class="exit-button" src="resources/exit-logo.png" alt="" />
+      </a>
+    </div>
+    <h1>You're Watching...</h1>
+    <div class="display-box"><h2 id="display-text">'Add Show' or click 'Random' to begin</h2></div>
+    <div class="func-buttons">
+      <div class="random-show button"><h2>Random</h2></div>
+      <div class="add-show button" onclick="openAddShow()"><h2>Add Show</h2>
+      </div>
+      <div class="show-add-section">
+      </div>
+      <div class="show-all button">
+        <a href="#"><h2>Show All</h2>
+        </a>
+      </a>
+    </div>
+  </div>
+  <div class="show-add-modal">
+    <div class="show-add-modal-dialogue">
+      <p id="add-show-text">Add a show here.</p><span onclick="closeAddShow()" class="close-add-show-modal">x</span>
+      <form  action="">
+        <input class="userAddedValue" type="text">
+        <button class="show-add-section-button">Add</button>
+      </form>
+    </div>
+  </div>
+  <div class="modal">
+    <div class="modal-nav">
+      <h3>All Shows</h3> <span class="close-modal">x</span>
+    </div>
+    <h6>Click an item to remove it.
+    </h6>
+      <div class="modal-body">
+      
+      </div>
+    </div>
+    <div class="confirm-screen">
+      <div class="confirm-container">
+        <h4>Are you sure you want to remove this item?</h4>
+        <h6 class="warning">You will have to re-add the item if you remove it.</h6>
+        <div class="button-container">
+          <div class="confirm-button">Yes, delete it</div>
+          <div class="deny-button">No, keep it</div>
+        </div>
+        </div>
+    </div>
+  </body>
+</html>
